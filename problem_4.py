@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# YOUR FULL NAME
+# Vinícius Moraes da Silva
 # UAG00098
 # Problem Set 4 - Problem 4
 # Description:
@@ -8,7 +8,7 @@
 """
 Inputs, Processes and Output (IPO)
 -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-Nas questões desse desse conjunto, você deverá escrever uma biblioteca chamada library_problem_4.py que contenha funções, separando a lógica do script principal, onde serão chamadas todas as funções.
+Nas questões desse desse conjunto, você deverá escrever uma biblioteca chamada library_problem_5.py que contenha funções, separando a lógica do script principal, onde serão chamadas todas as funções.
 
 Input(s):
 A entrada contém vários casos de teste. A primeira linha da entrada contém um inteiro N (1 ≤ N ≤ 20), indicando o número de casos de teste da entrada. Cada uma das N linhas seguintes contém um valor inteiro X (1 ≤ X ≤ 108), que pode ser ou não, um número perfeito.
@@ -29,9 +29,11 @@ Teste 3: 28
 28 é perfeito.
 """
 
+from library_problem_4 import resultado
 
 def main():
-    pass  # your code here
+    
+    resultado()
 
 
 if __name__ == '__main__':
